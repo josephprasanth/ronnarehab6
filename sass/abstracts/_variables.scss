@@ -1,13 +1,10 @@
 /*
 COLORS:
-
 Light red: #b80509
 Medium red: #9c0003
 Dark red: #7c0306
-
 Main Logos Red Colour: #9c0003; 
 */
-@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 
 $color-primary: #9c0003;
 $color-primary-light: #b80509;
@@ -16,3 +13,8 @@ $color-primary-dark: #7c0306;
 $color-grey-dark: #777;
 $color-white: #fff;
 $color-black: #000;
+
+// GRID
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-horizontal: 6rem;

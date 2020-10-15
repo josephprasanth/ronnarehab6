@@ -7,8 +7,11 @@
 }
 
 html {
+    // Definition here is for 1 rem calculation
     font-size: 62.5%;
     /* 10/16=.625 because 10px is what we want by default */
 }
 
-
+body {
+    box-sizing: border-box;
+}

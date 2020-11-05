@@ -3,3 +3,13 @@
     padding: 25rem 0;
     margin-top: -20vh;
 }
+
+.section-features {
+    padding: 20rem 0;
+    background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)),
+        url("../img/productionimages/ron-1-large.jpg");
+    background-size: cover;
+    background-position: center;
+
+    // clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
+}

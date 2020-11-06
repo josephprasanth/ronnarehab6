@@ -10,6 +10,11 @@
         url("../img/productionimages/ron-1-large.jpg");
     background-size: cover;
     background-position: center;
-
+    margin-top: -10rem;
     // clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
+}
+
+.section-staff {
+    background-color: $color-grey-light-1;
+    padding: 10rem 0 50rem 0;
 }

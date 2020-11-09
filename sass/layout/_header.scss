@@ -6,6 +6,7 @@
     background-position: top;
     position: relative;
     /* clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); */
+    -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
     clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
 
     &__logo-box {
@@ -25,4 +26,3 @@
         text-align: center;
     }
 }
-

@@ -1,13 +1,11 @@
 .card {
+    // Functionality
     perspective: 150rem;
     -moz-perspective: 150rem;
     position: relative;
     height: 50rem;
 
     &_side {
-        color: #fff;
-        font-size: 2rem;
-
         height: 50rem;
         transition: all 0.8s ease;
         position: absolute;
@@ -16,6 +14,7 @@
         width: 100%;
         backface-visibility: hidden;
         border-radius: 3px;
+        overflow: hidden;
         box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
 
         &--front {
@@ -41,5 +40,77 @@
     &:hover &_side--back {
         transform: rotateY(0);
         z-index: 10;
+    }
+
+    //Front Side Styling
+    &_picture {
+        background-size: cover;
+        height: 45rem;
+        background-blend-mode: color;
+        -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
+        clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
+
+        &--1 {
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
+                url("../../img/productionimages/staff/rahel.jpg");
+        }
+        &--2 {
+            background-image: url("../../img/productionimages/staff/rehal.jpg");
+        }
+        &--3 {
+            background-image: url("../../img/productionimages/staff/rehal.jpg");
+        }
+    }
+    &_heading {
+        font-size: 2.8rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        text-align: right;
+        color: $color-white;
+        position: absolute;
+        top: 32rem;
+        right: 2rem;
+        width: 75%;
+    }
+    &_heading-span {
+        padding: 1rem;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+
+        &--1 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-primary-light, 0.85),
+                rgba($color-primary-dark, 0.85)
+            );
+        }
+    }
+
+    &_details {
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 700;
+        padding: 1rem;
+    }
+    // Back Side Styling
+    &_cta {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &_price-box {
+        text-align: center;
+        color: $color-white;
+        margin-bottom: 8rem;
+    }
+    &_price-only {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+    }
+    &_price-value {
+        font-size: 6rem;
+        font-weight: 100;
     }
 }

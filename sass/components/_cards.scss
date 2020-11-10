@@ -26,7 +26,7 @@
             transform: rotateY(-180deg);
             z-index: 1;
 
-            &-1 {
+            &--1 {
                 background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark);
             }
         }
@@ -49,16 +49,40 @@
         background-blend-mode: color;
         -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
         clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
 
         &--1 {
             background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
                 url("../../img/productionimages/staff/rahel.jpg");
         }
         &--2 {
-            background-image: url("../../img/productionimages/staff/rehal.jpg");
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
+                url("../../img/productionimages/staff/semath.jpg");
         }
         &--3 {
-            background-image: url("../../img/productionimages/staff/rehal.jpg");
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
+                url("../../img/productionimages/staff/daniel.jpg");
+        }
+        &--4 {
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
+                url("../../img/productionimages/staff/nasrin.jpg");
+        }
+        &--5 {
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
+                url("../../img/productionimages/staff/maria.jpg");
+        }
+        &--6 {
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
+                url("../../img/productionimages/staff/sophie.jpg");
+        }
+        &--7 {
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
+                url("../../img/productionimages/staff/jimmy.jpg");
+        }
+        &--8 {
+            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
+                url("../../img/productionimages/staff/violet.jpg");
         }
     }
     &_heading {
@@ -84,6 +108,55 @@
                 rgba($color-primary-dark, 0.85)
             );
         }
+        &--2 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-primary-light, 0.85),
+                rgba($color-primary-dark, 0.85)
+            );
+        }
+        &--3 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-primary-light, 0.85),
+                rgba($color-primary-dark, 0.85)
+            );
+        }
+        &--4 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-primary-light, 0.85),
+                rgba($color-primary-dark, 0.85)
+            );
+        }
+        &--5 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-primary-light, 0.85),
+                rgba($color-primary-dark, 0.85)
+            );
+        }
+        &--6 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-primary-light, 0.85),
+                rgba($color-primary-dark, 0.85)
+            );
+        }
+        &--7 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-primary-light, 0.85),
+                rgba($color-primary-dark, 0.85)
+            );
+        }
+        &--8 {
+            background-image: linear-gradient(
+                to right bottom,
+                rgba($color-primary-light, 0.85),
+                rgba($color-primary-dark, 0.85)
+            );
+        }
     }
 
     &_details {
@@ -98,6 +171,8 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+        width: 90%;
+        text-align: center;
     }
 
     &_price-box {

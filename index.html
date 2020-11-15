@@ -358,7 +358,7 @@
         </div>
 
         <div class="u-center-text u-margin-top-big">
-          <a href="#" class="btn btn--red">Discover More Staff Info</a>
+          <a href="#" class="btn btn--white">Discover More Staff Info</a>
         </div>
       </section>
 
@@ -366,7 +366,64 @@
       <section class="section-book">
         <div class="row">
           <div class="book">
-            
+            <div class="book_form">
+              <form action="#" class="form">
+                <div class="u-center-text u-margin-bottom-small">
+                  <h2 class="heading-secondary">Contact Us</h2>
+                </div>
+                <div class="form_group">
+                  <input
+                    type="text"
+                    name="name"
+                    class="form_input"
+                    placeholder="Full name"
+                    id="name"
+                    required
+                  />
+                  <label for="name" class="form_label">Full name</label>
+                </div>
+
+                <div class="form_group">
+                  <input
+                    type="email"
+                    name="email"
+                    class="form_input"
+                    placeholder="Email address"
+                    id="email"
+                    required
+                  />
+                  <label for="email" class="form_label">Email address</label>
+                </div>
+
+                <!-- <div class="form_group">
+                  <input
+                    type="subject"
+                    name="subject"
+                    class="form_input"
+                    placeholder="Subject"
+                    id="email"
+                  />
+                  <label for="subject" class="form_label">Subject</label>
+                </div> -->
+
+                <div class="form_group">
+                  <textarea
+                    name="message"
+                    type="textarea"
+                    class="form_input"
+                    placeholder="Message"
+                    id="message"
+                  ></textarea>
+                  <label for="message" class="form_label">Message</label>
+                </div>
+
+                <div class="form_group u-margin-bottom-medium">
+                  <button type="submit" name="submit" class="btn btn--red">
+                    Send &rarr;
+                  </button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       </section>

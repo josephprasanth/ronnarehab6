@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      #gallery {
+        padding: 2rem;
+      }
+
+      #gallery > #gallery__list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        grid-template-rows: repeat(6, 200px);
+        grid-gap: 1rem;
+        grid-auto-flow: dense;
+      }
+
+      #gallery > #gallery__list > li:nth-child(4n) {
+        grid-column: span 2;
+        grid-row: span 2;
+      }
+
+      #gallery > #gallery__list > li:nth-child(8n) {
+        grid-column: span 3;
+        grid-row: span 3;
+      }
+
+      #gallery > #gallery__list > li > figure {
+        height: 100%;
+      }
+
+      #gallery > #gallery__list > li > figure > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/icon-font.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="./img/productionimages/favicon.png"
+    />
+
+    <title>RonnaRehab | Välkommen</title>
+  </head>
+
+  <body>
+    <div class="navigation">
+      <input type="checkbox" class="navigation_checkbox" id="navi-toggle" />
+      <label for="navi-toggle" class="navigation_button">
+        <span class="navigation_icon">&nbsp;</span>
+      </label>
+      <div class="navigation_background">&nbsp;</div>
+      <nav class="navigation_nav">
+        <ul class="navigation_list">
+          <li class="navigation_item">
+            <a
+              href="
+            ../../index.html"
+              class="navigation_link"
+              ><span>01 </span>Hem</a
+            >
+          </li>
+          <li class="navigation_item">
+            <a
+              href="
+            ../../vierbjuder.html"
+              class="navigation_link"
+              ><span>02 </span>Vi Erbjuder</a
+            >
+          </li>
+          <li class="navigation_item">
+            <a
+              href="
+            ../../gallery.html"
+              class="navigation_link"
+              ><span>03 </span>Gallery</a
+            >
+          </li>
+          <li class="navigation_item">
+            <a
+              href="
+            ../../idrotsmedicin.html"
+              class="navigation_link"
+              ><span>04 </span>Idrotsmedicin</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!--End of Navigation -->
+
+    <main>
+      <!---Staff Pictures -->
+      <section class="section-staff">
+        <div class="u-center-text">
+          <h2 class="heading-secondary u-margin-bottom-medium">
+            Daily Life At Ronna Rehab
+          </h2>
+
+          <div class="col-1-of-1">
+            <div class="row">
+              <div id="gallery">
+                <ul id="gallery__list">
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/1.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/2.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/3.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/4.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/5.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/6.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/7.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/8.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/9.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/10.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/11.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/12.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/13.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/14.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/15.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/16.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/17.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/18.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/19.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/20.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/21.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/22.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/23.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/24.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/29.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/26.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                  <li>
+                    <figure>
+                      <img
+                        src="./img/productionimages/gallery/27.jpg"
+                        alt="Ronna Rehab"
+                      />
+                    </figure>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Start of Footer-->
+    <footer class="footer">
+      <div class="footer__logo-box">
+        <picture class="footer__logo">
+          <source
+            srcset="
+              img/logo-green-small-1x.png 1x,
+              img/logo-green-small-2x.png 2x
+            "
+            media="(max-width: 37.5em)"
+          />
+          <img
+            srcset="./img/productionimages/logo-footer.png"
+            alt="Full logo"
+            src="./img/productionimages/logo-footer.png"
+          />
+        </picture>
+      </div>
+      <div class="row">
+        <div class="col-1-of-2">
+          <div class="footer__navigation">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="contact.php" class="footer__link">Contact</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Facebook</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Instagram</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Linkedin</a>
+              </li>
+              <li class="footer__item">
+                <a href="ourterms.html" class="footer__link">Our Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-1-of-2">
+          <p class="footer__copyright">
+            Design by <a href="#" class="footer__link">Prasanth Joseph </a>
+            <a href="#" class="footer__link"></a>. Copyright &copy; 2020 All
+            Rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- <section class="grid-test">
+      <div class="row">
+        <div class="col-1-of-2">Col 1 of 2</div>
+        <div class="col-1-of-2">Col 1 of 2</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-3">Col 1 of 3</div>
+        <div class="col-1-of-3">Col 1 of 3</div>
+        <div class="col-1-of-3">Col 1 of 3</div>
+      </div>
+      <div class="row">
+        <div class="col-1-of-3">Col 1 of 3</div>
+        <div class="col-2-of-3">Col 2 of 3</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-1-of-4">Col 1 of 4</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-2-of-4">Col 2 of 4</div>
+      </div>
+
+      <div class="row">
+        <div class="col-1-of-4">Col 1 of 4</div>
+        <div class="col-3-of-4">Col 3 of 4</div>
+      </div>
+    </section> -->
+  </body>
+</html>

@@ -15,9 +15,16 @@
         background-clip: text;
         color: transparent;
     }
+    &_image {
+        width: 45%;
+        margin: 5rem 0;
+    }
+    &_image_2 {
+        width: 13.7%;
+        margin: 5rem 0;
+    }
 
     &:hover {
         transform: translateY(-1.5rem) scale(1.03);
     }
-    
 }

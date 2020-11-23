@@ -4,8 +4,25 @@
     margin-top: -20vh;
 }
 
+.section-about-2 {
+    background-color: $color-grey-light-1;
+    padding: 12rem 0;
+    margin-top: -20vh;
+    margin-bottom: 10rem;
+}
+
 .section-features {
     padding: 20rem 0;
+    background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)),
+        url("../img/productionimages/ron-2-large.jpg");
+    background-size: cover;
+    background-position: center;
+    margin-top: -10rem;
+    // clip-path: polygon(0% 0%, 100% 0, 100% 93%, 50% 100%, 0 93%);
+}
+
+.section-features-2 {
+    padding: 20rem 0 40rem 0;
     background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.8), rgba($color-primary-dark, 0.8)),
         url("../img/productionimages/ron-1-large.jpg");
     background-size: cover;

@@ -6,8 +6,7 @@ Our Breakpoints
 900 - 1200px: Tablet Landscape
 1200 - 1800px is where our Normal styles apply
 1800px+ - Big Desktop
-*/
-/*
+
 $breakpoint argument choices:
 - phone
 - tab-port
@@ -32,9 +31,15 @@ Main Logos Red Colour: #9c0003;
 html {
   font-size: 62.5%;
   /* 10/16=.625 because 10px is what we want by default */ }
-  @media (max-width: 600px) {
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
     html {
       font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }

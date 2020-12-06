@@ -53,40 +53,43 @@
         border-top-right-radius: 3px;
 
         &--1 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
-                url("../../img/productionimages/staff/rakel-3.jpg");
+            background-image: (url("../../img/productionimages/staff/rakel-3.jpg"));
         }
         &--2 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
-                url("../../img/productionimages/staff/semath.jpg");
+            background-image: url("../../img/productionimages/staff/semath.jpg");
         }
         &--3 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
-                url("../../img/productionimages/staff/daniel.jpg");
+            background-image: url("../../img/productionimages/staff/daniel.jpg");
         }
         &--4 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
-                url("../../img/productionimages/staff/nasrin.jpg");
+            background-image: url("../../img/productionimages/staff/nasrin.jpg");
         }
         &--5 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
-                url("../../img/productionimages/staff/maria.jpg");
+            background-image: url("../../img/productionimages/staff/maria.jpg");
         }
         &--6 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
-                url("../../img/productionimages/staff/sophie.jpg");
+            background-image: url("../../img/productionimages/staff/sophie.jpg");
         }
         &--7 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
-                url("../../img/productionimages/staff/jimmy.jpg");
+            background-image: url("../../img/productionimages/staff/jimmy.jpg");
         }
         &--8 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
-                url("../../img/productionimages/staff/violet.jpg");
+            background-image: url("../../img/productionimages/staff/violet.jpg");
+        }
+        &--9 {
+            background-image: url("../../img/productionimages/staff/sanni.jpg");
+        }
+        &--10 {
+            background-image: url("../../img/productionimages/staff/karol.jpg");
+        }
+        &--11 {
+            background-image: url("../../img/productionimages/staff/joel.jpg");
+        }
+        &--12 {
+            background-image: url("../../img/productionimages/staff/alexandra.jpg");
         }
         &--20 {
-            background-image: linear-gradient(to right bottom, $color-primary-light, $color-primary-dark),
-                url("../../img/productionimages/staff/adam-2.jpg");
+            background-image: url("../../img/productionimages/staff/adam-2.jpg");
         }
         /*Cards of Erbjuder*/
         &--21 {

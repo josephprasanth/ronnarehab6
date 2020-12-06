@@ -1,5 +1,20 @@
 @charset "UTF-8";
 /*
+Our Breakpoints
+0 - 600px: Phone
+600 - 900px: Tablet Potrait
+900 - 1200px: Tablet Landscape
+1200 - 1800px is where our Normal styles apply
+1800px+ - Big Desktop
+*/
+/*
+$breakpoint argument choices:
+- phone
+- tab-port
+- tab-land
+- big-desktop
+*/
+/*
 COLORS:
 Light red: #b80509
 Medium red: #9c0003
@@ -17,6 +32,9 @@ Main Logos Red Colour: #9c0003;
 html {
   font-size: 62.5%;
   /* 10/16=.625 because 10px is what we want by default */ }
+  @media (max-width: 600px) {
+    html {
+      font-size: 50%; } }
 
 body {
   box-sizing: border-box; }
@@ -250,7 +268,7 @@ body {
     background-clip: text;
     color: transparent; }
   .feature-box_image {
-    width: 45%;
+    width: 30%;
     margin: 5rem 0; }
   .feature-box_image_2 {
     width: 13.7%;
@@ -298,23 +316,31 @@ body {
     border-top-right-radius: 3px;
     /*Cards of Erbjuder*/ }
     .card_picture--1 {
-      background-image: linear-gradient(to right bottom, #b80509, #7c0306), url("../../img/productionimages/staff/rakel-3.jpg"); }
+      background-image: url("../../img/productionimages/staff/rakel-3.jpg"); }
     .card_picture--2 {
-      background-image: linear-gradient(to right bottom, #b80509, #7c0306), url("../../img/productionimages/staff/semath.jpg"); }
+      background-image: url("../../img/productionimages/staff/semath.jpg"); }
     .card_picture--3 {
-      background-image: linear-gradient(to right bottom, #b80509, #7c0306), url("../../img/productionimages/staff/daniel.jpg"); }
+      background-image: url("../../img/productionimages/staff/daniel.jpg"); }
     .card_picture--4 {
-      background-image: linear-gradient(to right bottom, #b80509, #7c0306), url("../../img/productionimages/staff/nasrin.jpg"); }
+      background-image: url("../../img/productionimages/staff/nasrin.jpg"); }
     .card_picture--5 {
-      background-image: linear-gradient(to right bottom, #b80509, #7c0306), url("../../img/productionimages/staff/maria.jpg"); }
+      background-image: url("../../img/productionimages/staff/maria.jpg"); }
     .card_picture--6 {
-      background-image: linear-gradient(to right bottom, #b80509, #7c0306), url("../../img/productionimages/staff/sophie.jpg"); }
+      background-image: url("../../img/productionimages/staff/sophie.jpg"); }
     .card_picture--7 {
-      background-image: linear-gradient(to right bottom, #b80509, #7c0306), url("../../img/productionimages/staff/jimmy.jpg"); }
+      background-image: url("../../img/productionimages/staff/jimmy.jpg"); }
     .card_picture--8 {
-      background-image: linear-gradient(to right bottom, #b80509, #7c0306), url("../../img/productionimages/staff/violet.jpg"); }
+      background-image: url("../../img/productionimages/staff/violet.jpg"); }
+    .card_picture--9 {
+      background-image: url("../../img/productionimages/staff/sanni.jpg"); }
+    .card_picture--10 {
+      background-image: url("../../img/productionimages/staff/karol.jpg"); }
+    .card_picture--11 {
+      background-image: url("../../img/productionimages/staff/joel.jpg"); }
+    .card_picture--12 {
+      background-image: url("../../img/productionimages/staff/alexandra.jpg"); }
     .card_picture--20 {
-      background-image: linear-gradient(to right bottom, #b80509, #7c0306), url("../../img/productionimages/staff/adam-2.jpg"); }
+      background-image: url("../../img/productionimages/staff/adam-2.jpg"); }
     .card_picture--21 {
       background-image: linear-gradient(to right bottom, #b80509, #7c0306), url("../../img/productionimages/vierbjuder/lymp.jpg"); }
     .card_picture--22 {
@@ -737,8 +763,8 @@ body {
   padding: 20rem 0 15rem 0; }
 
 .section-book {
-  padding: 15rem 0;
-  background-image: linear-gradient(to right bottom, #9c0003, #b80509, #7c0306); }
+  padding: 25rem 0;
+  background-color: #f7f7f7; }
 
 .book {
   background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../../img/productionimages/contact-2.jpg);
